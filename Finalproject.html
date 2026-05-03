@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS170 Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #005bea, #00c6fb);
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background: #111;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      color: #111;
+      border-radius: 15px;
+      padding: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #ffdd00;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #111;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ffdd00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <h1>My Sonic Portfolio</h1>
+    <p>Click a character to view each assignment</p>
+  </header>
+
+  <!-- PROJECTS -->
+  <section class="projects">
+
+    <a class="card" href="hw2.html">
+      <img src="sonic.jpg" alt="Sonic">
+      <h2>Sonic</h2>
+      <p>Homework 2: Movie Ranking</p>
+    </a>
+
+    <a class="card" href="hw3.html">
+      <img src="tails.jpg" alt="Tails">
+      <h2>Tails</h2>
+      <p>Homework 3: Birthday Invite</p>
+    </a>
+
+    <!-- ✅ FIXED LINK HERE -->
+    <a class="card" href="html-portfoliohw5.html.html">
+      <img src="knuckles.jpg" alt="Knuckles">
+      <h2>Knuckles</h2>
+      <p>Homework 5: Portfolio</p>
+    </a>
+
+    <a class="card" href="hw6.html">
+      <img src="shadow.jpg" alt="Shadow">
+      <h2>Shadow</h2>
+      <p>Homework 6: Character Selection</p>
+    </a>
+
+  </section>
+
+  <!-- FOOTER (NOW WITH CONTACT INFO) -->
+  <footer>
+    <p>© 2026 Aaron Harris</p>
+    <p>
+      Contact:
+      <a href="mailto:aharris94@sycamores.indstate.edu">
+        aharris94@sycamores.indstate.edu
+      </a>
+      |
+      <a href="mailto:aaronharris842@gmail.com">
+        aaronharris842@gmail.com
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
