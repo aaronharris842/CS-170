@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #333;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            width: 60%;
+            margin-left: 20%;
+        }
+
+        h1 {
+            font-family: 'Libre Baskerville', serif;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        img {
+            width: 100%;
+            border: 5px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Main Heading -->
+        <h1>My Portfolio</h1>
+
+        <!-- Welcome Section -->
+        <h2>Welcome</h2>
+        <p>Hello! I'm an aspiring Web Developer learning how to build websites.</p>
+        <p>
+            View my resume:
+            <a href="resume.html">Online Resume</a>
+        </p>
+
+        <!-- Projects Section -->
+        <h2>Projects</h2>
+
+        <h3>Movie Ranking Project</h3>
+        <p>A webpage where I ranked my favorite movies.</p>
+        <img src="HW2.jpg" alt="Movie Ranking Screenshot">
+        <br>
+        <a href="HW2.html">View Project</a>
+
+        <h3>Birthday Invite Project</h3>
+        <p>A fun birthday invitation webpage.</p>
+        <img src="hw3.jpg" alt="Birthday Invite Screenshot">
+        <br>
+        <a href="https://wallpapers-clan.com/wp-content/uploads/2024/11/sonic-the-hedgehog-water-splash-desktop-wallpaper-preview.jpg">View Project</a>
+
+        <!-- About Me -->
+        <h2>About Me</h2>
+        <p>
+            I am currently learning HTML and building my first portfolio. 
+            I enjoy creating simple websites and improving my coding skills.
+        </p>
+
+        <!-- Contact -->
+        <h2>Contact Information</h2>
+        <p>Email: yourname@example.com</p>
+        <p>
+            <a href="contact.html">Contact Me</a>
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Your Name</p>
+        <p>
+            <a href="https://github.com/yourusername">My GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
